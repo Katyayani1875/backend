@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
-  origin: 'http://localhost:5173',  // Change to your frontend's address
+  origin: 'https://frontend-wf6t.onrender.com',  // Change to your frontend's address
   credentials: true,  // Enable cookies to be sent
 }));
 
